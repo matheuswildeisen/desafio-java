@@ -18,9 +18,9 @@ public class CalculadoraNotas {
         System.out.printf("Média Semestral: %.2f\n", mediaSemestral);
 
         if (mediaSemestral >= 7) {
-            System.out.println("Aluno(a) aprovado(a)!");
+            System.out.println("Aluno aprovado!");
         } else {
-            System.out.println("Aluno(a) em exame.");
+            System.out.println("Aluno em exame.");
 
             double notaCorte = 10 - mediaSemestral;
             System.out.printf("Nota mínima para passar no exame: %.2f\n", notaCorte);
@@ -32,9 +32,9 @@ public class CalculadoraNotas {
             System.out.printf("Média final após exame: %.2f\n", mediaExame);
 
             if (mediaExame >= 5) {
-                System.out.println("Aluno(a) aprovado(a) após exame!");
+                System.out.println("Aluno aprovado após exame!");
             } else {
-                System.out.println("Aluno(a) reprovado(a).");
+                System.out.println("Aluno reprovado.");
             }
         }
 
